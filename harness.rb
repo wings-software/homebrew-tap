@@ -6,11 +6,11 @@ class Harness < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/wings-software/harness-cli-binaries/blob/master/harnesscli_0.0.3-rc1_Darwin_x86_64.tar.gz"
+    url "https://github.com/wings-software/harness-cli-binaries/blob/master/harnesscli_0.0.3-rc1_Darwin_x86_64.tar.gz?raw=true"
     sha256 "ecfa7a757033c34bce14ed36a83784b3ddf1624325e6de42183ac1caf90f2822"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/wings-software/harness-cli-binaries/blob/master/harnesscli_0.0.3-rc1_Linux_x86_64.tar.gz"
+      url "https://github.com/wings-software/harness-cli-binaries/blob/master/harnesscli_0.0.3-rc1_Linux_x86_64.tar.gz?raw=true"
       sha256 "087c4443eb81e106692472ac4dfb9c4d2bbacdbeb5efba2f91faf179bee69394"
     end
   end
