@@ -20,7 +20,8 @@ class Harness < Formula
   end
 
   def caveats; <<~EOS
-    Harness Cmd Utility
+    harness has been installed as
+    /usr/local/bin/harness
   EOS
   end
 
