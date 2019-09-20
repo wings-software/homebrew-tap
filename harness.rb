@@ -21,7 +21,7 @@ class Harness < Formula
 
   def caveats; <<~EOS
     harness has been installed as
-    /usr/local/bin/harness
+      /usr/local/bin/harness
   EOS
   end
 
