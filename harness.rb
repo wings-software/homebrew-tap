@@ -2,16 +2,16 @@
 class Harness < Formula
   desc "Command Line Utility for Harness"
   homepage "https://app.harness.io/"
-  version "1.0.7"
+  version "1.0.8"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/wings-software/harness-cli-binaries/releases/download/v1.0.7/harnesscli_Darwin_x86_64.tar.gz"
-    sha256 "3cded256263d0f995d3b7fd23131878ec7865667eeea399953c959cef6518958"
+    url "https://github.com/wings-software/harness-cli-binaries/releases/download/v1.0.8/harnesscli_Darwin_x86_64.tar.gz"
+    sha256 "4ef33697ad64199f02db3c7ec94a39b32c2a214c159e250fd00a3fcc45cf9dac"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/wings-software/harness-cli-binaries/releases/download/v1.0.7/harnesscli_Linux_x86_64.tar.gz"
-      sha256 "8e26e24cf7625dea3ff413d8885fd78335ffa853445bd87e5983ec4455daf17b"
+      url "https://github.com/wings-software/harness-cli-binaries/releases/download/v1.0.8/harnesscli_Linux_x86_64.tar.gz"
+      sha256 "30e2792b839dd73930f04956a331849c090d859d8eeb50a27664e61253195e79"
     end
   end
 
